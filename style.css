@@ -1,0 +1,91 @@
+
+/* add background image for body */
+body {
+    background-image: url("../img/bg.jpg");
+}
+/* set color for header */
+header {
+    background-color: #ececec;
+}
+/* set logo style */
+.logo {
+    width: 8%;
+    margin-left: 40px;
+    max-width: 100%;
+}
+/* set main image style */
+.image {
+    border-radius: 8px;
+    max-width: 100%;
+}
+/* set the width of main image and form for 49% */
+.item {
+    width: 49%;
+}
+/* set main content flex style */
+main {
+    margin: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/* set legend style */
+legend {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #fe2c55;
+}
+/* add top margin for the paragraph "email*" */
+.email {
+    margin-top: 20px;
+}
+/* set color to "*"  */
+span {
+    color: #fe2c55;
+}
+/* set color to "subscribe me" */
+.redfont {
+    color: #cd0a0a;
+}
+/* add hover effect to submit button */
+input[type=submit]:hover {
+    color: #cd0a0a;
+}
+/* add hover effect to a tag link */
+a:hover {
+    color: #23f5ef;
+}
+/* set style for lable and paragraph */
+label, p {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+/* add bottom margin to input, legend and select */
+input, legend, select {
+    margin-bottom: 10px;
+}
+/* set style for footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ececec;
+}
+/* set style for the text in footer */
+.copyright {
+    color: #363636;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.7rem;
+}
+/* Use CSS to make sure all contents fit within container when resizing browser */
+@media only screen and (max-width: 650px) {
+    .item {
+        /* each one item on one row when the screen width less and equal than 650px */
+        width: 100%;
+    }
+
+}

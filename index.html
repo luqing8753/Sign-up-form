@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sign Up form by Qing Lu</title>
+        <!-- load the reset -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css">
+        <!-- Load the google fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik&family=Roboto:wght@500&display=swap"
+            rel="stylesheet">
+        <!-- link style.css file -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- logo image in header -->
+        <header>
+            <img class="logo" src="img/logo1.png" alt="Logo is coming…">
+        </header>
+        <main>
+            <!-- main image in the left section -->
+            <section class="item">
+                <img class="image" src="img/image.jpg" alt="The image is on the way…">
+            </section>
+            <!-- main form in the right section -->
+            <section id="item right">
+                <form action="/" method="post">
+                    <fieldset>
+                        <legend>Sign Up</legend>
+
+                        <p class="email">Email<span>*</span></p>
+                        <input type="email" name="emailaddress" required="required">
+
+                        <p>Password<span>*</span></p>
+                        <input type="password" name="pwd" required="required">
+
+                        <p>First Name</p>
+                        <input type="text" name="fname">
+                        <p>Last Name</p>
+                        <input type="text" name="lname">
+
+                        <p>Province</p>
+                        <select name="province" id="province">
+                            <option value="" selected="selected">Select Province</option>
+                            <option value="AB">Alberta</option>
+                            <option value="BC">British Columbia</option>
+                            <option value="ON">Ontario</option>
+                            <option value="MB">Manitoba</option>
+                            <option value="NB">New Brunswick</option>
+                            <option value="NL">Newfoundand and Labrador</option>
+                            <option value="NT">Northwest Territories</option>
+                            <option value="NS">Nova Scotia</option>
+                            <option value="NU">Nunavut</option>
+                            <option value="PE">Prince Edward Island</option>
+                            <option value="QC">Quebec</option>
+                            <option value="SK">Saskatchewan</option>
+                            <option value="YK">Yukon</option>
+                        </select><br/>
+
+                        <input type="checkbox" name="subscribe" id="subscribe" value="subscribe">
+                        <label class="redfont" for="subscribe">Subscribe Me</label><br/>
+
+                    </fieldset>
+
+                    <input type="submit">
+                    <p>Already a user?<a href=""> Log in</a></p>
+
+                </form>
+            </section>
+        </main>
+        <!-- footer for copyright -->
+        <footer>
+            <p class="copyright">
+                © 2020 Tiktok, Inc. All Rights Reserved
+            </p>
+        </footer>
+    </body>
+</html>
